@@ -1,0 +1,98 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "none",
+        "padding": {
+            "right": 1
+        }
+    },
+    "display": {
+        "separator": "->   ",
+        "color": {
+            "separator": "yellow"
+        },
+        "constants": [
+            "───────────────────────────"
+        ],
+        "key": {
+            "type": "both",
+            "paddingLeft": 4
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "title",
+                        "format": "┌{$1} {#1} ~ {user-name-colored}{at-symbol-colored}{host-name-colored} ~ {#1} {$1}┐",
+            "color": {
+                "user": "yellow",
+                "at": "white",
+                "host": "yellow"
+            }
+        },
+        "break",
+        {
+            "key": "OS           ",
+            "keyColor": "blue",
+            "type": "os"
+        },
+        {
+            "key": "WM           ",
+            "keyColor": "red",
+            "type": "wm"
+        },
+        {
+            "key": "Uptime       ",
+            "keyColor": "green",
+            "type": "uptime"
+        },
+        "break",
+        {
+            "key": "Shell        ",
+            "keyColor": "blue",
+            "type": "shell"
+        },
+        {
+            "key": "Terminal     ",
+            "keyColor": "red",
+            "type": "terminal"
+        },
+        {
+            "key": "Editor       ",
+            "keyColor": "green",
+            "type": "editor"
+        },
+        "break",
+        {
+            "key": "CPU          ",
+            "keyColor": "blue",
+            "type": "cpu",
+            "format": "{name} @ {8}",
+            "temp": true
+        },
+        {
+            "key": "GPU          ",
+            "keyColor": "red",
+            "type": "gpu",
+            "hideType": "integrated",
+            "format": "{name} @ {4}",
+            "temp": true
+        },
+        {
+            "key": "Memory       ",
+            "keyColor": "green",
+            "type": "memory"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "└{$1}────────────────────{$1}┘"
+        },
+        "break",
+        {
+            "type": "colors",
+            "paddingLeft": 30,
+            "symbol": "circle"
+        }
+    ]
+}
