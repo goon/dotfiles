@@ -5,10 +5,14 @@ These are my personal dotfiles, managed with [GNU Stow](https://www.gnu.org/soft
 ## What's Included
 
 - Hypr 
+- HyprPanel
 - Fish 
 - Kitty
 - FastFetch
-- btop++
+- Rofi 
+- btop++ 
+
+- Various Scripts 
 
 ## Requirements
 
