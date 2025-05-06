@@ -1,0 +1,8 @@
+[[manager.prepend_keymap]]
+on   = "!"
+run  = 'shell "kitty" --orphan --confirm'
+desc = "Open Terminal in CWD"
+
+
+
+
