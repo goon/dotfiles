@@ -9,10 +9,9 @@ These are my personal dotfiles, managed with [GNU Stow](https://www.gnu.org/soft
 - Fish 
 - Kitty
 - FastFetch
-- Rofi 
-- btop++ 
+- Neovim
 
-- Various Scripts 
+...and a host of other random configs/scripts. 
 
 ## Requirements
 
