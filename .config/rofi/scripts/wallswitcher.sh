@@ -12,7 +12,7 @@ done
 WALL_DIR="$HOME/Pictures/"
 CACHE_DIR="$HOME/.config/rofi/cache/wallselect_icons/"
 TRACKING_FILE="$HOME/.config/rofi/cache/Trackers/wallTracker.txt"
-ROFI_THEME="$HOME/.config/rofi/wallselect.rasi"
+ROFI_THEME="$HOME/.config/rofi/wallswitcher.rasi"
 
 # === Ensure Directories Exist ===
 mkdir -p "$CACHE_DIR"

@@ -5,7 +5,7 @@
   "theme.font.size": "0.9rem",
   "theme.bar.buttons.radius": "0.3em",
   "bar.workspaces.workspaces": 5,
-  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showWsIcons": false,
   "bar.workspaces.scroll_speed": 5,
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "bar.clock.format": "%a %b %d  %I:%M %p",
@@ -541,7 +541,7 @@
   "bar.workspaces.show_numbered": false,
   "bar.workspaces.workspaceMask": true,
   "notifications.ignore": [
-    "spotify_player"
+    "Spotify"
   ],
   "theme.bar.buttons.bluetooth.enableBorder": false,
   "theme.bar.buttons.modules.microphone.border": "#ffffff",
@@ -602,7 +602,7 @@
   "bar.customModules.updates.padZero": true,
   "bar.customModules.cpuTemp.sensor": "/sys/devices/platform/coretemp.0/hwmon/hwmon7/temp1_input",
   "theme.bar.enableShadow": false,
-  "theme.bar.margin_sides": "0.9em",
+  "theme.bar.margin_sides": "50em",
   "theme.bar.margin_top": "1em",
   "theme.bar.dropdownGap": "2.9em",
   "theme.bar.menus.monochrome": false,
