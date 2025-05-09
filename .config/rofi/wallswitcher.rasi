@@ -43,7 +43,7 @@ mainbox {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     6;
+    columns:                     7;
     lines:                       1;
     spacing:                     50px;
     padding:                     20px 150px;
