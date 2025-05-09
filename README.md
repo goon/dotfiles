@@ -1,6 +1,8 @@
 # Dotfiles | Arch x Hyprland 
 
-These are my personal dotfiles, managed with [GNU Stow](https://www.gnu.org/software/stow/).
+These are my personal dotfiles, managed with [GNU Stow](https://www.gnu.org/software/stow/)
+
+Use at your own risk, but preferably don't.
 
 ## What's Included
 
@@ -22,4 +24,5 @@ These are my personal dotfiles, managed with [GNU Stow](https://www.gnu.org/soft
 ## Contributions 
 
 Cheers to all the other people that I robbed aspects of my config from. 
+
 You know who you are, but I can barely remember.
