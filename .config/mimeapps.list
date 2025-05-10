@@ -1,5 +1,4 @@
 [Default Applications]
-
 inode/directory=yazi.desktop
 text/plain=nvim.desktop
 application/json=nvim.desktop
@@ -7,23 +6,16 @@ application/schema+json=nvim.desktop
 application/x-shellscript=nvim.desktop
 application/x-yaml=nvim.desktop
 application/x-conf=nvim.desktop
-
 image/jpeg=org.gnome.gThumb.desktop
 image/png=org.gnome.gThumb.desktop
 image/webp=org.gnome.gThumb.desktop
 image/gif=org.gnome.gThumb.desktop
-
 video/mp4=org.gnome.gThumb.desktop
 video/x-matroska=org.gnome.gThumb.desktop
 video/webm=org.gnome.gThumb.desktop
-
 x-scheme-handler/discord=vesktop.desktop
 x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
+text/css=kitty-open.desktop
 
 [Added Associations]
-
-
-
-
-
-
+text/css=kitty-open.desktop;
