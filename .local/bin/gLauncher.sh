@@ -14,12 +14,12 @@ done
 
 # ── paths & theme ─────────────────────────────────────────────────────────────
 STEAM_ROOT="$HOME/.local/share/Steam"
-LIB_CACHE="$STEAM_ROOT/appcache/librarycache"         # cover art folders
-ROFI_THEME="$HOME/.config/rofi/gLauncher.rasi"        # your uploaded theme
-CACHE_DIR="$HOME/.config/rofi/cache/steam_thumbnails" # square thumbnails
+LIB_CACHE="$STEAM_ROOT/appcache/librarycache"  # cover art folders
+ROFI_THEME="$HOME/.config/rofi/gLauncher.rasi" # your uploaded theme
+CACHE_DIR="$HOME/.cache/rofi/steam_thumbnails" # square thumbnails
 mkdir -p "$CACHE_DIR"
 
-# ── create (or fetch) a 500×500 png thumbnail ────────────────────────────────
+# ── create (or fetch) a thumbnail ────────────────────────────────
 create_icon() {
   local id="$1" src dst
   dst="$CACHE_DIR/${id}.png"

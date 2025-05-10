@@ -10,8 +10,8 @@ done
 
 # === Config Paths ===
 WALL_DIR="$HOME/Pictures/wallpapers/"
-CACHE_DIR="$HOME/.config/rofi/cache/wallselect_icons/"
-TRACKING_FILE="$HOME/.config/rofi/cache/Trackers/wallTracker.txt"
+CACHE_DIR="$HOME/.cache/rofi/wallpapers"
+TRACKING_FILE="$HOME/.cache/rofi/tracker.txt"
 ROFI_THEME="$HOME/.config/rofi/wallswitcher.rasi"
 
 # === Ensure Directories Exist ===
